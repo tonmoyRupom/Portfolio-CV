@@ -1,0 +1,146 @@
+body{
+    background-color: white;
+}
+
+/* For desktop: */                        /*Total row ke 12 ti vabe vag kora jay*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* <!--Navbar Desing Starts from here--> */
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.navbar-menu
+{
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 10px;
+
+    background-color: transparent;      /*Desktop e backgorund color dekhabe nah*/
+}
+
+/* <!--Navbar Desing Ends from here--> */
+
+/* <!--Profile Desing Starts from here--> */
+
+.profile  .top{
+    height: 100px;
+    width: 100px;
+    position: absolute;           /*.profile class r perrespective e change hobe*/
+
+    right: 60px;
+    top: 40px;
+
+    transition: width 2s,transform 2s;
+}
+
+.profile .top:hover{
+    transform: rotate(360deg);
+    width: 140px;
+}
+
+.profile  .bottom{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+
+    left: 80px;
+    top: 520px;
+
+    transition: width 2s,transform 2s;
+}
+
+.profile .bottom:hover{
+    width: 140px;
+    transform: rotate(360deg);
+}
+
+.profile-desc p{
+    color: gray;
+    width: 50%;
+    margin: 0 auto 5px auto;
+}
+
+/* <!--Profile Desing Ends from here--> */
+
+/* About-Me design starts here */
+.about-img-desc{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.about-image{
+    margin-left: 0px;
+}
+
+.about-image img{
+    height: 300px;
+    width: 270px
+}
+
+.about-desc p{
+    text-align: left;    
+}
+
+/* About-Me design Ends here */
+
+/* Profession-Experience design starts here */
+.professional-experience{
+    display: flex;
+    flex-direction: row;
+
+    padding: 1% 5%;
+}
+
+
+
+/* Profession-Experience design ends here */
+
+/* Achievement-contact design starts here */
+
+.achievement-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievement
+{
+    padding-right: 50px;
+}
+
+/* Achievement-contact design ends here */
+
+/* Footer design starts here */
+.footer-menu{
+    margin-top: 12px;
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+/* Footer design ends here */
